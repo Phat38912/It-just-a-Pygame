@@ -1,0 +1,2 @@
+# It-just-a-Pygame
+IT JUST A GAME NOT THING MUCH HAHAHAH
