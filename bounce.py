@@ -1,7 +1,7 @@
 import sys
 import pygame
 import os 
-
+import webbrowser
 os.system('powershell /c "python -m pygame.examples.aliens"')
 
 pygame.init()
@@ -31,7 +31,8 @@ while 1:
         dy = -dy
 
     os.system('cmd /c "@echo off"')
-    os.system('cmd /c "echo You lose, wanna play again"')
+    os.system("start \"\" https://youtu.be/tfobQgR504k")
+    os.system('cmd /c "echo And you lose, wanna play again"')
     os.system('cmd /c "echo You lose, If you dont want to play again. Close the Window"')
     os.system('cmd /c "pause"')
     os.system('powershell /c "python -m pygame.examples.aliens"')   
