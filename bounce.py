@@ -1,8 +1,3 @@
-cmd
-echo Xin chao, co mun chs game cua toi ko?
-echo Neu co bam bat ky nut nao de chs!
-pause
-python 
 import sys
 import pygame
 import os 
@@ -36,6 +31,7 @@ while 1:
         dy = -dy
 
     os.system('cmd /c "@echo off"')
-    os.system('cmd /c "echo Ban da thua, chs lai ko?"')
+    os.system('cmd /c "echo You lose, wanna play again"')
+    os.system('cmd /c "echo You lose, If you dont want to play again. Close the Window"')
     os.system('cmd /c "pause"')
     os.system('powershell /c "python -m pygame.examples.aliens"')   
